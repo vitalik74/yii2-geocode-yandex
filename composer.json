@@ -1,0 +1,53 @@
+{
+  "name": "vitalik74/yii2-geocode-yandex",
+  "description": "This is Yii2 extension for Geocode From Yandex",
+  "version": "1.0.0",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "yii 2",
+    "geocode",
+    "geocode Yandex",
+    "Yandex"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tsibikov Vitaliy",
+      "email": "tsibikov_vit@mail.ru",
+      "homepage": "http://tsibikov.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/vitalik74/yii2-geocode-yandex/issues?state=open",
+    "source": "https://github.com/vitalik74/yii2-geocode-yandex",
+    "email": "tsibikov_vit@mail.ru"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*"
+  },
+  "require-dev": {
+    "codeception/codeception": "2.0.*",
+    "codeception/specify": "*",
+    "codeception/verify": "*",
+    "yiisoft/yii2-codeception": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*",
+    "yiisoft/yii2-faker": "*",
+    "yiisoft/yii2-apidoc": "*",
+    "yiisoft/yii2-faker": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "vitalik74\\geocode\\": "src"
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
