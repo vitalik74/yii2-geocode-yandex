@@ -56,7 +56,8 @@ class Geocode extends Object
      */
     private function buildUrl(array $params)
     {
-        if (empty(ArrayHelper::getValue($params, 'format'))) {
+        $value = ArrayHelper::getValue($params, 'format');
+        if (empty($value)) {
             $params['format'] = $this->format;
         }
 
