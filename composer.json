@@ -1,5 +1,5 @@
 {
-  "name": "vitalik74/yii2-geocode-yandex",
+  "name": "andreeva-nata/yii2-geocode-yandex",
   "description": "This is Yii2 extension for Geocode From Yandex",
   "version": "1.0.0",
   "type": "yii2-extension",
@@ -20,12 +20,11 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/vitalik74/yii2-geocode-yandex/issues?state=open",
-    "source": "https://github.com/vitalik74/yii2-geocode-yandex",
-    "email": "tsibikov_vit@mail.ru"
+    "issues": "https://github.com/andreeva-nata/yii2-geocode-yandex/issues?state=open",
+    "source": "https://github.com/andreeva-nata/yii2-geocode-yandex"
   },
   "require": {
-    "php": ">=5.4.0",
+    "php": ">=7.1.0",
     "yiisoft/yii2": "*"
   },
   "require-dev": {
@@ -41,7 +40,7 @@
   },
   "autoload": {
     "psr-4": {
-      "vitalik74\\geocode\\": "src"
+      "andreeva-nata\\geocode\\": "src"
     }
   },
   "extra": {

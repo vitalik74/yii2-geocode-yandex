@@ -1,8 +1,8 @@
 <?php
 namespace vitalik74\geocode;
 
+use yii\base\BaseObject;
 use yii\base\ErrorException;
-use yii\base\Object;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 
@@ -12,7 +12,7 @@ use yii\helpers\Json;
  * @author Tsibikov Vitaliy <tsibikov_vit@mail.ru> <tsibikov.com>
  */
 
-class Geocode extends Object
+class Geocode extends BaseObject
 {
     /**
      * Default Url for request
